@@ -4,8 +4,7 @@ export type Tone = "accent" | "slate" | "sage";
 
 export const nav = [
   { label: "Features", href: "#features" },
-  { label: "AI Chef", href: "#chef" },
-  { label: "Community", href: "/community" },
+  { label: "AI Chef ✨", href: "#chef" },
   { label: "Pricing", href: "#pricing" },
   { label: "About", href: "#about" },
 ];
@@ -31,22 +30,15 @@ export const suggestions = [
   ["Creamy zucchini risotto", "35 min"],
 ];
 
-export const posts: { initial: string; name: string; badge: string; title: string; likes: string; comments: number; tone: Tone }[] = [
-  { initial: "M", name: "Marta R.", badge: "Top creator", title: "Sunday ragù", likes: "1.2k", comments: 84, tone: "accent" },
-  { initial: "J", name: "Jonas K.", badge: "Vegan", title: "Lemon chickpea stew", likes: "860", comments: 41, tone: "slate" },
-  { initial: "A", name: "Amara D.", badge: "Gluten free", title: "Herb polenta bake", likes: "640", comments: 27, tone: "sage" },
-];
-
 export const testimonials = [
   { quote: "I scanned my grandmother’s notebook in one evening. Scaling for family dinners is now a single tap.", name: "Elena V.", role: "Home cook" },
   { quote: "Allergen filters let me build client plans in minutes instead of hours.", name: "Dr. Paolo M.", role: "Nutritionist" },
-  { quote: "Food cost and catering mode changed how my team preps for service.", name: "Chef Luca B.", role: "Professional chef" },
+  { quote: "The AI Chef gives my team new menu ideas from whatever is in the walk-in.", name: "Chef Luca B.", role: "Professional chef" },
 ];
 
 export const plans = [
   { name: "Free", price: "€0", period: "", cta: "Start Free", featured: false, items: ["Up to 50 recipes", "Cloud synchronization", "Portion conversion"] },
-  { name: "Pro", price: "€4.99", period: "/month", cta: "Get Pro", featured: true, items: ["Unlimited recipes", "AI Scanner", "AI Chef", "Shopping Lists", "Allergen Filters"] },
-  { name: "Professional", price: "€19.99", period: "/month", cta: "Get Professional", featured: false, items: ["Food cost calculations", "Team collaboration", "PDF exports", "Excel exports", "Catering mode", "Analytics"] },
+  { name: "Pro", price: "€25", period: "/month", cta: "Get Pro", featured: true, items: ["Unlimited recipes", "AI Chef", "AI Scanner", "Shopping Lists", "Allergen Filters"] },
 ];
 
-export const sidebar = ["Dashboard", "My Recipes", "AI Chef", "Shopping Lists", "Community", "Favorites", "Settings"];
+export const sidebar = ["Dashboard", "My Recipes", "AI Chef", "Shopping Lists", "Favorites", "Settings"];

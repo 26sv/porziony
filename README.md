@@ -22,7 +22,7 @@ npm run build
 
 ## Routes
 
-`/login`, `/register` and `/community` are plain links. Add a router (for example React Router) and build those pages when you connect Supabase auth.
+`/login` and `/register` are plain links. Add a router (for example React Router) and build those pages when you connect Supabase auth.
 
 ## Next steps
 

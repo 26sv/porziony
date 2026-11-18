@@ -4,7 +4,6 @@ import { Hero } from "@/components/sections/Hero";
 import { Features } from "@/components/sections/Features";
 import { Demo } from "@/components/sections/Demo";
 import { Chef } from "@/components/sections/Chef";
-import { Community } from "@/components/sections/Community";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Pricing } from "@/components/sections/Pricing";
 import { FinalCta } from "@/components/sections/FinalCta";
@@ -16,7 +15,7 @@ export default function App() {
       <Header />
       <main id="main">
         <div id="top" />
-        <Hero /><Features /><Demo /><Chef /><Community /><Testimonials /><Pricing /><FinalCta />
+        <Hero /><Chef /><Features /><Demo /><Testimonials /><Pricing /><FinalCta />
       </main>
       <Footer />
     </>

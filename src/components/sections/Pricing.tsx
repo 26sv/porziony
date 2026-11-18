@@ -7,7 +7,7 @@ import { cn } from "@/lib/utils";
 export function Pricing() {
   return (
     <Section id="pricing" title="Simple pricing that grows with your kitchen.">
-      <div className="grid gap-5 md:grid-cols-3">
+      <div className="mx-auto grid max-w-3xl gap-5 md:grid-cols-2">
         {plans.map((p) => (
           <Card key={p.name} className={cn("flex flex-col p-8", p.featured && "border-2 border-accent")}>
             <h3 className="text-xl">{p.name}</h3>
