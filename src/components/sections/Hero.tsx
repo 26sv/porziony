@@ -21,7 +21,7 @@ export function Hero() {
             <Button asChild><a href="/register">Start Free</a></Button>
             <Button asChild variant="secondary"><a href="#demo">Watch Demo</a></Button>
           </div>
-          <p className="mt-5 text-sm text-ink/50">The smarter way to manage recipes. Free for up to 50 recipes.</p>
+          <p className="mt-5 text-sm text-ink/50">The smarter way to manage recipes. Free for up to 12 recipes.</p>
         </motion.div>
 
         <motion.div initial={{ opacity: 0, scale: 0.97 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.7, delay: 0.15 }}>

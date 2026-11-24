@@ -37,7 +37,7 @@ export const testimonials = [
 ];
 
 export const plans = [
-  { name: "Free", price: "€0", period: "", cta: "Start Free", featured: false, items: ["Up to 50 recipes", "Cloud synchronization", "Portion conversion"] },
+  { name: "Free", price: "€0", period: "", cta: "Start Free", featured: false, items: ["Up to 12 recipes", "Cloud synchronization", "Portion conversion"] },
   { name: "Pro", price: "€25", period: "/month", cta: "Get Pro", featured: true, items: ["Unlimited recipes", "AI Chef", "AI Scanner", "Shopping Lists", "Allergen Filters"] },
 ];
 
